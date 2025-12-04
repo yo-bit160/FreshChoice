@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Login / Registratie</title>
+    <link rel="stylesheet" href="systeem-login.css">
+</head>
+<body>
+
+<div class="hoofd-div">
+
+    <div class="login-div" id="login-box">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="password" placeholder="Wachtwoord" required>
+            <button type="submit" class="login-button">Log in</button>
+        </form>
+        <div class="toggle-link">
+            Nog geen account? <a href="#" onclick="toggleForms()">Maak er een.</a>
+        </div>
+    </div>
+
+    <div class="account-form" id="register-box" style="display:none;">
+        <h2>Registreren</h2>
+        <form action="register.php" method="post">
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="password" placeholder="Wachtwoord" required>
+            <select name="role" class="rol-kiezen" required>
+                <option value="">-- Kies rol --</option>
+                <option value="Leidinggevende">Leidinggevende</option>
+                <option value="Personeel">Personeel</option>
+            </select>
+            <button type="submit" class="aanmaken-button">Account aanmaken</button>
+        </form>
+        <div class="toggle-link">
+            Al een account? <a href="#" onclick="toggleForms()">Login hier</a>
+        </div>
+    </div>
+
+</div>
+
+<script>
+function toggleForms() {
+    const loginBox = document.getElementById('login-box');
+    const registerBox = document.getElementById('register-box');
+    if (loginBox.style.display === 'none') {
+        loginBox.style.display = 'block';
+        registerBox.style.display = 'none';
+    } else {
+        loginBox.style.display = 'none';
+        registerBox.style.display = 'block';
+    }
+}
+</script>
+
+</body>
+</html>

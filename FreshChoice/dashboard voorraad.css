@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    
+}
+
+.hoofd{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    height: 700px;
+}
+
+.een{
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.een-header{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-weight: bold;
+}
+
+.een-body{
+    background-color: white;
+}
+
+.twee {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0;
+   box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.twee-header {
+    color: white;
+  background-color: orange;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.twee-body {
+  padding: 15px;
+  text-align: left;
+}
+
+.drie{
+background-color: white;
+border: 2px solid black;
+border-radius: 8px;
+padding: 0;
+text-align: center;
+ box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.drie-header{
+    background-color: rgb(220, 13, 13);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-weight: bold;
+}
+
+.drie-body{
+    background-color: white;
+}
+
+.vier{
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.vier-header{
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.vier-body{
+    background-color: white;
+}
+
+.vijf{
+border: 2px solid black;
+background-color: white;
+text-align: center;
+border-radius: 8px;
+padding: 0;
+ box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.vijf-header{
+    font-weight: bold;
+    padding: 10px;
+    background-color: yellow;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.vijf-body{
+    background-color: white;
+}
+
+.zes{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.zes-header{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px
+}
+
+.zes-body{
+    background-color: white;
+}

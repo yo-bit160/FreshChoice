@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.bovenkant{
+    width: 100%;
+    margin-bottom: 100px;
+    border-bottom: 2px solid black;
+
+}
+
+
+.Welkom{
+    height: 100%;
+    width: 800px;
+    background-color: aquamarine;
+    margin-left: 8px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.pfp-div{
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 6px;
+}
+
+.pfp{
+    height: 80px;
+    width: 80px;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.schermen{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.kalender{
+    border: 2px solid black;
+    width: 200px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.diensten{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
